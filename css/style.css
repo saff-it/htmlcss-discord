@@ -106,7 +106,7 @@ a{
 
 
 /* section one & three */
-.container.one{
+.container.one, .container.three{
     margin: 50px auto;
 }
 .img-column{
@@ -126,11 +126,9 @@ a{
 
 
 
-
-
 /* section two  */
-.section.two{
-    background-color: rgb(202, 202, 202);
+.container.two{
+    margin: 50px auto;
 }
 
 
