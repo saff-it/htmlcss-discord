@@ -106,17 +106,25 @@ a{
 
 
 /* section one & three */
-.blu{
-    height: 500px;
-    background-color: rgb(35, 112, 226);
+.container.one{
+    margin: 50px auto;
+}
+.img-column{
     flex-basis: 60%;
 }
 
-.pink{
-    height: 500px;
-    background-color: rgb(235, 145, 172);
+.txt-column{
+    max-width: 250px;
     flex-basis: 40%;
+    margin-top: 35px;
 }
+
+.txt-column h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
 
 
 
