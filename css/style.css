@@ -27,6 +27,9 @@ h2{
     margin-bottom: 20px;
 }
 
+i.fa-solid{
+    margin-right: 5px;
+}
 
 
 /* header  */
@@ -81,7 +84,7 @@ a{
 /* hero  */
 .section.hero{
     background-image: url('../img/jumbo.png');
-    background-size: cover;
+    background-size: 100%;
 }
 
 .box-hero{
@@ -115,8 +118,8 @@ a{
 }
 
 .btn-hero-lft, .btn-hero-rght{
-    font-size: 20px;
-    margin: 5px;
+    font-size: 16px;
+    margin: 6px;
 }
 
 
@@ -190,7 +193,6 @@ footer{
     background-color: rgb(51, 47, 47);
     padding: 15px 0 0 0;
     color: white;
-    
 }
 
 .lft-box h3{
@@ -209,6 +211,15 @@ footer{
     list-style-type: none;
     font-size: 12px;
     color: #7189DA;
+}
+
+i.fa-brands{
+    margin-right: 9px;
+    margin-top: 8px;
+}
+
+img.ita-flag{
+    width: 18px;
 }
 
 
