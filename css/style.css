@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 40px;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
+}
+
+
+/* header  */
+.background-col{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.container.head{
+    background-color: orange;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .login{
+    display: flex;
+    flex-basis: 25%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.login{
+    justify-content: end;
+}
+
+.link{
+    flex-basis: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+
+/* hero  */
+.section.hero{
+    background-color: blue;
+}
+
+.box-hero{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(233, 112, 223);
+    margin: auto;
+}
+
+
+
+/* section one & three */
+.blu{
+    height: 500px;
+    background-color: rgb(35, 112, 226);
+    flex-basis: 60%;
+}
+
+.pink{
+    height: 500px;
+    background-color: rgb(235, 145, 172);
+    flex-basis: 40%;
+}
+
+
+
+/* section two  */
+.section.two{
+    background-color: rgb(202, 202, 202);
+}
+
+
+
+/* section four  */
+.section.four{
+    background-color: rgb(202, 202, 202);
+}
+
+.container.green{
+    height: 700px;
+    background-color: green;
+}
+
+/* section five  */
+.section.footer-top{
+    background-color: rgb(51, 47, 47);
+}
+
+.lft-box{
+    height: 500px;
+    background-color: rgb(214, 107, 139);
+    flex-grow: 1;
+}
+
+.rght-box{
+    height: 500px;
+    background-color: aqua;
+    flex-grow: 2;
+    display: flex;
+}
+
+.inside-rght{
+    border: 1px solid black;
+    width: 25%;
+}
+
+/* footer  */
+footer{
+    background-color: rgb(51, 47, 47);
+    padding: 15px 0 0 0;
+}
+
+.container.footer-btm{
+    height: 50px;
+    border-top: 2px solid rgb(238, 230, 230);
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-btn-btm{
+    height: 45%;
+    background-color: rgb(214, 107, 139);
+    font-size: 12px;
+    padding: 4px;
+}
+
+button{
+    height: 45%;
+    background-color: rgb(214, 107, 139);
+    font-size: 12px;
+    padding: 4px;
+}
