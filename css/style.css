@@ -13,7 +13,6 @@ section{
     width: 1000px;
     margin: auto;
     display: flex;
-    border: 1px solid black;
 }
 
 button{
@@ -22,6 +21,12 @@ button{
     padding: 4px;
 
 }
+
+h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
 
 
 /* header  */
@@ -41,13 +46,11 @@ button{
     display: flex;
     flex-basis: 20%;
     border: 1px solid black;
-    
 }
 
 .login{
     justify-content: end;
     padding: 12px 0;
-    
 }
 
 .link{
@@ -71,33 +74,32 @@ a{
 }
 
 
+
 /* hero  */
 .section.hero{
     background-image: url('../img/jumbo.png');
     background-size: cover;
- 
 }
 
 .box-hero{
     width: 800px;
     margin: auto;
     text-align: center;
-
 }
 
-.h2-footer{
+.h1-hero{
     margin-top: 50px;
     margin-bottom: 25px;
     color: white;
-    font-size: 35px;
+    font-size: 50px;
 }
 
-.p-footer{
-    max-width: 600px;
+.p-hero{
+    max-width: 700px;
     margin: 0 auto 10px auto;
     color: white;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .botton-couple{
@@ -105,10 +107,12 @@ a{
 }
 
 
+
 /* section one & three */
 .container.one, .container.three{
     margin: 50px auto;
 }
+
 .img-column{
     flex-basis: 60%;
 }
@@ -117,11 +121,6 @@ a{
     max-width: 250px;
     flex-basis: 40%;
     margin-top: 35px;
-}
-
-.txt-column h2{
-    font-size: 35px;
-    margin-bottom: 20px;
 }
 
 
@@ -134,14 +133,25 @@ a{
 
 
 /* section four  */
-.section.four{
-    background-color: rgb(202, 202, 202);
+.container.big{
+    display: flex;
+    justify-content: center;
 }
 
-.container.green{
-    height: 700px;
-    background-color: green;
+.big-box-txt, .small-box-txt{
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
 }
+
+.small-box-txt h3{
+    padding: 25px;
+}
+
+.section.four{
+    margin: 30px auto;
+}
+
 
 /* section five  */
 .section.footer-top{
