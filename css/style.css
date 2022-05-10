@@ -81,16 +81,28 @@ a{
 .box-hero{
     width: 800px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
 
 }
 
-.h2-footer, .p-footer, .botton-couple{
-
+.h2-footer{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 35px;
 }
 
+.p-footer{
+    max-width: 600px;
+    margin: 0 auto 10px auto;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.botton-couple{
+    margin-bottom: 50px;
+}
 
 
 /* section one & three */
