@@ -153,41 +153,47 @@ a{
 }
 
 
-/* section five  */
-.section.footer-top{
-    background-color: rgb(51, 47, 47);
-}
-
+/* footer top  */
 .lft-box{
-    height: 500px;
-    background-color: rgb(214, 107, 139);
-    flex-grow: 1;
+    flex-basis: 25%;
 }
 
 .rght-box{
-    height: 500px;
-    background-color: aqua;
-    flex-grow: 2;
+    flex-basis: 75%;
     display: flex;
 }
 
 .inside-rght{
     border: 1px solid black;
+    height: 400px;
     width: 25%;
 }
 
-/* footer  */
 footer{
     background-color: rgb(51, 47, 47);
     padding: 15px 0 0 0;
+    color: white;
 }
 
+.lft-box h3{
+    color: #7189DA;
+    font-size: 26px;
+    padding-bottom: 8px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+/* footer bottom  */
 .container.footer-btm{
-    height: 50px;
-    border-top: 2px solid rgb(238, 230, 230);
-    background-color: aquamarine;
+    border-top: 1px solid #7189DA;
     justify-content: space-between;
     align-items: center;
+    padding-top: 7px;
 }
 
 .logo-btn-btm{
@@ -196,6 +202,8 @@ footer{
     font-size: 12px;
     padding: 4px;
 }
+
+
 
 /* button{
     height: 45%;
